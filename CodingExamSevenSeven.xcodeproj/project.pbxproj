@@ -9,21 +9,37 @@
 /* Begin PBXBuildFile section */
 		10E4FCC62C7EBF2700DEBCAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E4FCC52C7EBF2700DEBCAF /* AppDelegate.swift */; };
 		10E4FCC82C7EBF2700DEBCAF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E4FCC72C7EBF2700DEBCAF /* SceneDelegate.swift */; };
-		10E4FCCA2C7EBF2700DEBCAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E4FCC92C7EBF2700DEBCAF /* ViewController.swift */; };
+		10E4FCCA2C7EBF2700DEBCAF /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E4FCC92C7EBF2700DEBCAF /* LoginVC.swift */; };
 		10E4FCCD2C7EBF2700DEBCAF /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 10E4FCCC2C7EBF2700DEBCAF /* Base */; };
 		10E4FCCF2C7EBF2D00DEBCAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10E4FCCE2C7EBF2D00DEBCAF /* Assets.xcassets */; };
 		10E4FCD22C7EBF2D00DEBCAF /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 10E4FCD12C7EBF2D00DEBCAF /* Base */; };
+		10E4FCDA2C7EEA3E00DEBCAF /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E4FCD92C7EEA3E00DEBCAF /* LoginViewModel.swift */; };
+		10E4FCDE2C7EEACA00DEBCAF /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E4FCDD2C7EEACA00DEBCAF /* LoginResponse.swift */; };
+		10E4FCE02C7EEAD600DEBCAF /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E4FCDF2C7EEAD600DEBCAF /* LoginRequest.swift */; };
+		10E4FCE32C7EEBED00DEBCAF /* LoginValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E4FCE22C7EEBED00DEBCAF /* LoginValidation.swift */; };
+		10E4FCE62C7EF02800DEBCAF /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E4FCE52C7EF02800DEBCAF /* LoginService.swift */; };
+		10E4FCEF2C7F0AEA00DEBCAF /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E4FCEE2C7F0AEA00DEBCAF /* WelcomeVC.swift */; };
+		58BB6116F06FE9050340F5EF /* Pods_CodingExamSevenSeven.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7047ED66ED7735739B1A8FA5 /* Pods_CodingExamSevenSeven.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		10E4FCC22C7EBF2700DEBCAF /* CodingExamSevenSeven.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodingExamSevenSeven.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10E4FCC52C7EBF2700DEBCAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10E4FCC72C7EBF2700DEBCAF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		10E4FCC92C7EBF2700DEBCAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		10E4FCC92C7EBF2700DEBCAF /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		10E4FCCC2C7EBF2700DEBCAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		10E4FCCE2C7EBF2D00DEBCAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10E4FCD12C7EBF2D00DEBCAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		10E4FCD32C7EBF2D00DEBCAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10E4FCD92C7EEA3E00DEBCAF /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		10E4FCDD2C7EEACA00DEBCAF /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		10E4FCDF2C7EEAD600DEBCAF /* LoginRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequest.swift; sourceTree = "<group>"; };
+		10E4FCE22C7EEBED00DEBCAF /* LoginValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginValidation.swift; sourceTree = "<group>"; };
+		10E4FCE52C7EF02800DEBCAF /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		10E4FCEE2C7F0AEA00DEBCAF /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
+		555299E1330AB879E59B7F5D /* Pods-CodingExamSevenSeven.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodingExamSevenSeven.debug.xcconfig"; path = "Target Support Files/Pods-CodingExamSevenSeven/Pods-CodingExamSevenSeven.debug.xcconfig"; sourceTree = "<group>"; };
+		7047ED66ED7735739B1A8FA5 /* Pods_CodingExamSevenSeven.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CodingExamSevenSeven.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EA145B9A0C519B104A7E536 /* Pods-CodingExamSevenSeven.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodingExamSevenSeven.release.xcconfig"; path = "Target Support Files/Pods-CodingExamSevenSeven/Pods-CodingExamSevenSeven.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58BB6116F06FE9050340F5EF /* Pods_CodingExamSevenSeven.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +59,8 @@
 			children = (
 				10E4FCC42C7EBF2700DEBCAF /* CodingExamSevenSeven */,
 				10E4FCC32C7EBF2700DEBCAF /* Products */,
+				257CCE2349A57D099D39E842 /* Pods */,
+				4B65B72D01656BC85DCC9731 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +77,76 @@
 			children = (
 				10E4FCC52C7EBF2700DEBCAF /* AppDelegate.swift */,
 				10E4FCC72C7EBF2700DEBCAF /* SceneDelegate.swift */,
-				10E4FCC92C7EBF2700DEBCAF /* ViewController.swift */,
+				10E4FCEA2C7EFCFF00DEBCAF /* View */,
+				10E4FCE42C7EF01500DEBCAF /* NetworkService */,
+				10E4FCE12C7EEBD800DEBCAF /* Validation */,
+				10E4FCDB2C7EEA8B00DEBCAF /* ViewModel */,
+				10E4FCDC2C7EEA9C00DEBCAF /* Model */,
 				10E4FCCB2C7EBF2700DEBCAF /* Main.storyboard */,
 				10E4FCCE2C7EBF2D00DEBCAF /* Assets.xcassets */,
 				10E4FCD02C7EBF2D00DEBCAF /* LaunchScreen.storyboard */,
 				10E4FCD32C7EBF2D00DEBCAF /* Info.plist */,
 			);
 			path = CodingExamSevenSeven;
+			sourceTree = "<group>";
+		};
+		10E4FCDB2C7EEA8B00DEBCAF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				10E4FCD92C7EEA3E00DEBCAF /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		10E4FCDC2C7EEA9C00DEBCAF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				10E4FCDD2C7EEACA00DEBCAF /* LoginResponse.swift */,
+				10E4FCDF2C7EEAD600DEBCAF /* LoginRequest.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		10E4FCE12C7EEBD800DEBCAF /* Validation */ = {
+			isa = PBXGroup;
+			children = (
+				10E4FCE22C7EEBED00DEBCAF /* LoginValidation.swift */,
+			);
+			path = Validation;
+			sourceTree = "<group>";
+		};
+		10E4FCE42C7EF01500DEBCAF /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				10E4FCE52C7EF02800DEBCAF /* LoginService.swift */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		10E4FCEA2C7EFCFF00DEBCAF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				10E4FCEE2C7F0AEA00DEBCAF /* WelcomeVC.swift */,
+				10E4FCC92C7EBF2700DEBCAF /* LoginVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		257CCE2349A57D099D39E842 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				555299E1330AB879E59B7F5D /* Pods-CodingExamSevenSeven.debug.xcconfig */,
+				7EA145B9A0C519B104A7E536 /* Pods-CodingExamSevenSeven.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4B65B72D01656BC85DCC9731 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7047ED66ED7735739B1A8FA5 /* Pods_CodingExamSevenSeven.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +156,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10E4FCD62C7EBF2D00DEBCAF /* Build configuration list for PBXNativeTarget "CodingExamSevenSeven" */;
 			buildPhases = (
+				CFFDE7C4DEDA3B54E179E9C7 /* [CP] Check Pods Manifest.lock */,
 				10E4FCBE2C7EBF2700DEBCAF /* Sources */,
 				10E4FCBF2C7EBF2700DEBCAF /* Frameworks */,
 				10E4FCC02C7EBF2700DEBCAF /* Resources */,
+				66F258B0F6A8EEB09B64E6F2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +217,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		66F258B0F6A8EEB09B64E6F2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CodingExamSevenSeven/Pods-CodingExamSevenSeven-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CodingExamSevenSeven/Pods-CodingExamSevenSeven-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CodingExamSevenSeven/Pods-CodingExamSevenSeven-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFFDE7C4DEDA3B54E179E9C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CodingExamSevenSeven-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		10E4FCBE2C7EBF2700DEBCAF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10E4FCCA2C7EBF2700DEBCAF /* ViewController.swift in Sources */,
+				10E4FCDA2C7EEA3E00DEBCAF /* LoginViewModel.swift in Sources */,
+				10E4FCCA2C7EBF2700DEBCAF /* LoginVC.swift in Sources */,
 				10E4FCC62C7EBF2700DEBCAF /* AppDelegate.swift in Sources */,
+				10E4FCE32C7EEBED00DEBCAF /* LoginValidation.swift in Sources */,
+				10E4FCE02C7EEAD600DEBCAF /* LoginRequest.swift in Sources */,
 				10E4FCC82C7EBF2700DEBCAF /* SceneDelegate.swift in Sources */,
+				10E4FCDE2C7EEACA00DEBCAF /* LoginResponse.swift in Sources */,
+				10E4FCE62C7EF02800DEBCAF /* LoginService.swift in Sources */,
+				10E4FCEF2C7F0AEA00DEBCAF /* WelcomeVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,11 +419,13 @@
 		};
 		10E4FCD72C7EBF2D00DEBCAF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 555299E1330AB879E59B7F5D /* Pods-CodingExamSevenSeven.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CodingExamSevenSeven/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -314,11 +448,13 @@
 		};
 		10E4FCD82C7EBF2D00DEBCAF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EA145B9A0C519B104A7E536 /* Pods-CodingExamSevenSeven.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CodingExamSevenSeven/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
